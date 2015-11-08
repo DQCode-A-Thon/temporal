@@ -1,5 +1,5 @@
 # temporal
 
-Our goal was to detect data quality problems looking at time series data of different Diagnoses (or other concepts) in the underlying data set
+Please go to this github repo to see our work
 
-How it works
+https://github.com/alexperrone/dqcdm-temporal
