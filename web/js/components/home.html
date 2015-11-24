@@ -1,0 +1,23 @@
+	<div class="container">
+        <br/>
+        <div class="input-group search-box">
+            <input id="querytext" placeholder="search for concepts" class="form-control" type="text" data-bind="event: { keyup: checkExecuteSearch}, value: model.currentSearch()" />
+            <div class="input-group-btn">
+                <button class="btn btn-default"><i data-bind="click: checkExecuteSearch" class="glyphicon glyphicon-search"></i></button>
+            </div>
+        </div>    
+        <br/>
+		<div class="panel panel-default">
+			<div class="panel-heading" data-bind="text: 'Stats For ' + model.currentService().name">
+			</div>
+			<div class="panel-body">
+                <ul class="list-group" data-bind="foreach:model.currentSummaryStats">
+                    <li class="list-group-item">
+                        <span class="badge" data-bind="text: count"></span>
+                        <i class="fa fa-line-chart"></i>
+                        <span data-bind="text: diagStatName"></span>
+                    </li>
+                </ul>                
+			</div>            
+		</div>
+	</div>

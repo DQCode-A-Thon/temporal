@@ -1,0 +1,59 @@
+[
+    {
+        "stats": [
+            {
+                "sourceName":"CCAE",
+                "concept_id": "432867",
+                "diagStatId":"1",
+                "diagStatName":"constant",
+                "diagStatResult": 0
+            },
+            {
+                "sourceName":"CCAE",
+                "concept_id": "432867",
+                "diagStatId":"2",
+                "diagStatName":"increasing slope",
+                "diagStatResult": 1
+            },
+            {
+                "sourceName":"CCAE",
+                "concept_id": "432867",
+                "diagStatId":"3",
+                "diagStatName":"seasonal",
+                "diagStatResult": 0
+            },
+            {
+                "sourceName":"CCAE",
+                "concept_id": "432867",
+                "diagStatId":"4",
+                "diagStatName":"decreasing slope",
+                "diagStatResult": 1
+            },
+            {
+                "sourceName":"CCAE",
+                "concept_id": "432867",
+                "diagStatId":"5",
+                "diagStatName":"step",
+                "diagStatResult": 1
+            },
+            {
+                "sourceName":"CCAE",
+                "concept_id": "432867",
+                "diagStatId":"6",
+                "diagStatName":"spike",
+                "diagStatResult": 1
+            }
+        ],
+        "data": [
+            {
+                "sourceName":"CCAE",
+                "concept_id": "432867",
+                "conceptName":"Hyperlipidemia",
+                "domainId":"condition",
+                "measureId":"402",
+                "timePeriod":"201413",
+                "prevalence":"0.0215498522435469"
+            }
+        ]
+    }
+]

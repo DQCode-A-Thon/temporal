@@ -1,0 +1,38 @@
+[
+    {
+        "sourceName":"CCAE",
+        "diagStatId":"1",
+        "diagStatName":"constant",
+        "count": 100
+    },
+    {
+        "sourceName":"CCAE",
+        "diagStatId":"2",
+        "diagStatName":"increasing slope",
+        "count": 100
+    },
+    {
+        "sourceName":"CCAE",
+        "diagStatId":"3",
+        "diagStatName":"seasonal",
+        "count": 100
+    },
+    {
+        "sourceName":"CCAE",
+        "diagStatId":"4",
+        "diagStatName":"decreasing slope",
+        "count": 100
+    },
+    {
+        "sourceName":"CCAE",
+        "diagStatId":"5",
+        "diagStatName":"step",
+        "count": 100
+    },
+    {
+        "sourceName":"CCAE",
+        "diagStatId":"6",
+        "diagStatName":"spike",
+        "count": 100
+    }
+]
